@@ -1,0 +1,2 @@
+programs: 'resources/crispra_program_gene_top50pca.csv' # gene-program assignments
+clusters: 'resources/buechler_atlas_degs.csv' # gene-cluster assignments

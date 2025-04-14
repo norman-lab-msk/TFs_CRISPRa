@@ -1,0 +1,45 @@
+configfile: 'config/config_retina_multiome_up_atlas.yaml'
+
+batches = range(1, 33)
+
+rule all:
+    input:
+        'results/heatmap.pdf'
+
+rule split_program_cluster_list:
+    input:
+        config['programs'],
+        config['clusters']
+    output:
+        expand('results/program_cluster_splits/program_clusters_{batch}.csv', batch=batches)
+    conda:
+        'envs/pandas.yaml'
+    script:
+        'scripts/split_program_cluster_list.py'
+
+
+rule run_permutation_analysis:
+    input:
+        'results/program_cluster_splits/program_clusters_{batch}.csv',
+        config['programs'],
+        config['clusters']
+    output:
+        'results/permutation_results/permutation_results_{batch}.csv'
+    conda:
+        'envs/pandas.yaml'
+    script:
+        'scripts/run_permutation_analysis.py'
+
+
+rule plot_heatmap:
+    input:
+        expand('results/permutation_results/permutation_results_{batch}.csv', batch=batches)
+    output:
+        'results/permutation_results.csv',
+        'results/heatmap.pdf'
+    conda:
+        'envs/ggplot2.yaml'
+    script:
+        'scripts/plot_heatmap.R'
+
+

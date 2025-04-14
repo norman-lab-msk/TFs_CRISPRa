@@ -1,0 +1,12 @@
+name: ggplot2
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-ggplot2
+  - r-irkernel
+  - ca-certificates
+  - openssl
+  - r-dplyr
+prefix: /data/deyk/karthik/mambaforge/envs/ggplot2

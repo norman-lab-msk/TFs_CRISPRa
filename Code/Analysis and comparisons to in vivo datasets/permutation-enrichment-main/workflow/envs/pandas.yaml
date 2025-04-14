@@ -1,0 +1,19 @@
+name: pandas
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - scipy
+  - ca-certificates
+  - openssl
+  - statsmodels
+  - certifi
+  - jupyter
+  - ipykernel
+  - seaborn
+  - openpyxl
+  - tqdm
+prefix: /data/deyk/karthik/mambaforge/envs/pandas
