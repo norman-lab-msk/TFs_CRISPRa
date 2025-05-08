@@ -5,8 +5,8 @@ Southard KM, Ardy RC, Tang A, O'Sullivan DD, Metzner E, Guruvayurappan K, Norman
 
 in press at **Nature Genetics**
 
-Raw fastq files available at **SRA**
+Raw fastq files available at **SRA**: PRJNA1108254
 
-Processed datasets available at **Zenodo**
+Processed datasets available at **Zenodo**: https://zenodo.org/communities/normanlabmsk/
 
 Includes preparation and processing pipelines for droplet overloaded (multiple cells per droplet) Perturb-seq datasets and subsequent analysis of perturbation profiles as well as specific analysis code for CRISPRa of all transcription factors (TFs) within two cells types.
