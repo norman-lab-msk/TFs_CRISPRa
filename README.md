@@ -7,7 +7,7 @@ Southard KM, Ardy RC, Tang A, O'Sullivan DD, Metzner E, Guruvayurappan K, Norman
 
 in press at **Nature Genetics**
 
-Raw fastq files available at **SRA**: PRJNA1108254
+Raw fastq files available at **SRA**: [PRJNA1108254](https://www.ncbi.nlm.nih.gov/bioproject/?term=(PRJNA1108254)%20AND%20bioproject_sra[filter]%20NOT%20bioproject_gap[filter])
 
 Processed datasets available at **Zenodo**: https://zenodo.org/communities/normanlabmsk/
 
