@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/966336193.svg)](https://doi.org/10.5281/zenodo.15373940)
+
 # TFs_CRISPRa
 Analysis code from *Comprehensive transcription factor perturbations recapitulate fibroblast transcriptional states*:
 
@@ -8,7 +10,5 @@ in press at **Nature Genetics**
 Raw fastq files available at **SRA**: PRJNA1108254
 
 Processed datasets available at **Zenodo**: https://zenodo.org/communities/normanlabmsk/
-
-Code DOI: [![DOI](https://zenodo.org/badge/966336193.svg)](https://doi.org/10.5281/zenodo.15373940)
 
 Includes preparation and processing pipelines for droplet overloaded (multiple cells per droplet) Perturb-seq datasets and subsequent analysis of perturbation profiles as well as specific analysis code for CRISPRa of all transcription factors (TFs) within two cells types.
